@@ -64,6 +64,8 @@
             android:layout_height="230dp"
             android:orientation="horizontal">
 
+            <!-- 123321 -->
+
             <TextView
                 android:id="@+id/empty2"
                 android:layout_width="70dp"
