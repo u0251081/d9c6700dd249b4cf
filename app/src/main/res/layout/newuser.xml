@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Newuser"
+    android:background="@drawable/side_nav_bar">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="491dp"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bar">
+
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="64dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:id="@+id/btnsearch"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:text="填寫使用者資料"
+                android:textColor="#000000"
+                android:textStyle="bold|italic"
+                android:background="@drawable/bar2"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_x="27dp"
+            android:layout_y="337dp"
+            android:text="帳號(使用者名稱)"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/account2"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_x="84dp"
+            android:layout_y="337dp"
+            android:hint="限制為10個以內的大小寫英文字母或數字"
+            android:paddingTop="5dip"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_x="27dp"
+            android:layout_y="337dp"
+            android:text="密碼"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_x="84dp"
+            android:layout_y="337dp"
+            android:hint="限制為10個以內的大小寫英文字母或數字"
+            android:paddingTop="5dip"
+            android:textColor="#000000"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/birthday"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_x="28dp"
+            android:layout_y="240dp"
+            android:paddingTop="5dip"
+            android:text="電話"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_x="87dp"
+            android:layout_y="233dp"
+            android:hint="ex:  09XXXXXXXX"
+            android:inputType="phone"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/school"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_x="27dp"
+            android:layout_y="337dp"
+            android:text="Email"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_x="84dp"
+            android:layout_y="337dp"
+            android:inputType="textEmailAddress"
+            android:paddingTop="5dip"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/personid"
+            android:layout_width="92dp"
+            android:layout_height="30dp"
+            android:layout_x="27dp"
+            android:layout_y="337dp"
+            android:text="身份證字號"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/personid2"
+            android:layout_width="250dp"
+            android:layout_height="36dp"
+            android:layout_x="84dp"
+            android:layout_y="337dp"
+            android:hint="第一個英文字母大小寫皆可"
+            android:inputType="textEmailAddress"
+            android:paddingTop="5dip"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/buttonok"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="確定"
+            android:onClick="updatedata"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

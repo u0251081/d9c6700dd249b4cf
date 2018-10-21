@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".userlogin"
+    android:background="@drawable/welcomeroad">
+
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="16dp"
+            android:layout_x="30dp"
+            android:layout_y="51dp"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:text="Skytrain"
+            android:textSize="60dp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="70dp"
+            android:layout_y="222dp"
+            android:text="帳號 :"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_x="115dp"
+            android:layout_y="214dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="70dp"
+            android:layout_y="275dp"
+            android:text="密碼 :"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_x="116dp"
+            android:layout_y="264dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+        <ProgressBar
+            android:id="@+id/loding"
+            android:layout_width="88dp"
+            android:layout_height="44dp"
+            android:layout_x="140dp"
+            android:layout_y="364dp"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="88dp"
+            android:layout_height="44dp"
+            android:layout_x="140dp"
+            android:layout_y="364dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="登入"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="88dp"
+            android:layout_height="23dp"
+            android:layout_x="140dp"
+            android:layout_y="440dp"
+            android:background="#00000000"
+            android:text="註冊新帳號"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_x="115dp"
+            android:layout_y="313dp"
+            android:text="顯示密碼"
+            android:textColor="#FFFFFF" />
+
+    </AbsoluteLayout>
+</android.support.constraint.ConstraintLayout>

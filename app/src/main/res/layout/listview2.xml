@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/side_nav_bar"
+    tools:context=".tolist"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bar">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="64dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back"
+            android:onClick="changeProcess4" />
+
+        <TextView
+            android:id="@+id/btnsearch"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="已上傳資料"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="@drawable/bar2"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_x="0dp"
+        android:layout_y="58dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="237dp"
+            android:layout_height="40dp"
+            android:hint="依震度的等級、地址查詢"
+            android:textSize="12sp"></EditText>
+
+        <Button
+            android:id="@+id/searchok2"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:text="地址"
+            android:textColor="#FFFFFF"
+            android:onClick="pressok2"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"></Button>
+
+        <Button
+            android:id="@+id/searchok"
+            android:layout_width="61dp"
+            android:layout_height="match_parent"
+            android:text="震度"
+            android:textColor="#FFFFFF"
+            android:onClick="pressok"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_x="0dp"
+        android:layout_y="92dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nullview"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+          />
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <TextView
+                android:id="@+id/listData"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:background="#FFFF77" />
+
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/nulltext"
+            android:layout_width="362dp"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:id="@+id/counttext"
+            android:layout_width="362dp"
+            android:layout_height="45dp"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+</AbsoluteLayout>

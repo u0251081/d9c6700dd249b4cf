@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_account"
+    android:title="使用者資料"></item>
+    <item android:id="@+id/nav_list"
+        android:title="已上傳資料清單"></item>
+    <item android:id="@+id/nav_map"
+        android:title="地圖標記"></item>
+    <item android:id="@+id/nav_about"
+        android:title="關於SkyTrain"></item>
+
+    </group>
+</menu>

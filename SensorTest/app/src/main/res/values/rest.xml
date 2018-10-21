@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自訂端點項目-->
+    <item name="hosted" type="string">https://iot.cht.com.tw</item>
+    <item name="dhtservice" type="string">/iot/v1/device/7606988296/sensor/road_test9/rawdata?start=2017-08-04T10%3A24%3A50.956Z</item>
+    <item name="keyName" type="string">CK</item>
+    <item name="keyValue" type="string">PKVMV5FUVNZMZEOOD1</item>
+</resources>

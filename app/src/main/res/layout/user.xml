@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/side_nav_bar"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_x="1dp"
+        android:layout_y="0dp"
+        android:background="@drawable/bar">
+
+        <Button
+            android:id="@+id/btnback2"
+            android:layout_width="64dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/back"
+            android:onClick="backmain" />
+
+        <TextView
+            android:id="@+id/btnsearch"
+            android:layout_width="225dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="使用者資料"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold|italic"
+            android:background="@drawable/bar2"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="330dp"
+        android:layout_height="424dp"
+        android:layout_x="10dp"
+        android:layout_y="69dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/persontext"
+            android:layout_width="362dp"
+            android:layout_height="250dp"
+            android:background="#FFFF77"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+
+</AbsoluteLayout>

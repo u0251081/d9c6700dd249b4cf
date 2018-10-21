@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自訂端點項目-->
+    <item name="hosted" type="string">https://iot.cht.com.tw</item>
+    <item name="dhtservice" type="string">/iot/v1/device/10482012315/sensor/road_test19/rawdata?start=2017-08-04T10%3A24%3A50.956Z</item>
+    <item name="keyName" type="string">CK</item>
+    <item name="keyValue" type="string">PKQO1V8D10R44L63U7</item> <!--唯讀-->
+
+
+    <style name="AppThemeLogin" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeLogin.ApppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppThemeLogin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppThemeRegist" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary2</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+
+
+</resources>
